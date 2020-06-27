@@ -43,3 +43,18 @@
 	wim+R
 	msconfig
 	点击启动页，勾选即可
+五：标签tag的使用
+	如果要在git hub上发布release也需要tag
+	1.本地查看所有tag
+		git tag
+		查看部分tag
+		git tag -l v0.*
+	2.创建tag
+		git tag tag名称如v1.x
+	3.删除tag
+		git -d v1.0
+	4.上传并共享
+		git push origin --tags
+	5.如果要发布需要到git hub上去操作
+	
+	
